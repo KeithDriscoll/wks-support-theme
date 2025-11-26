@@ -1,10 +1,10 @@
 {
-    "name": "afrux/asirem",
-    "description": "The weird Flarum theme made with potatoes as fuel, by Afrux.",
+    "name": "keithdriscoll/wks-support-theme",
+    "description": "Flarum theme for WiFi Kickstart Support site.",
     "keywords": [
         "flarum"
     ],
-    "type": "flarum-extension",
+    "type": "flarum-theme",
     "license": "MIT",
     "funding": [
         {
@@ -34,7 +34,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Afrux\\Asirem\\": "src/"
+            "Wks\\SupportTheme\\": "src/"
         }
     },
     "autoload-dev": {

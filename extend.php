@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace Afrux\Asirem;
+namespace Wks\SupportTheme;
 
 use Flarum\Extend;
 use Flarum\Frontend\Document;
 
 return [
-    new \Afrux\ThemeBase\Extend\Init('afrux-asirem'),
+    new \Afrux\ThemeBase\Extend\Init('wks-support-theme'),
     new \Afrux\ThemeBase\Extend\Footer,
     new \Afrux\ThemeBase\Extend\UploadableBanner,
     new \Afrux\ThemeBase\Extend\ExposeLaravelVersionToDashboard,
@@ -35,7 +35,7 @@ return [
         ->js(__DIR__.'/js/dist/admin.js')
         ->css(__DIR__.'/less/admin.less')
         ->content(function (Document $document) {
-            $document->layoutView = "afrux-asirem::frontend.admin";
+            $document->layoutView = "wks-support-theme::frontend.admin";
         }),
 
     (new Extend\View)
