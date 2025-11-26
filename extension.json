@@ -1,0 +1,8 @@
+{
+    "name": "WKS Support Theme",
+    "id": "keithdriscoll-wks-support-theme",
+    "require": {
+        "flarum": "^1.0.0"
+    },
+    "extension-namespace": "Wks\\SupportTheme"
+}
